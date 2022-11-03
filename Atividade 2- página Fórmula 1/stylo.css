@@ -1,0 +1,73 @@
+body{
+    background-color: gray; /*fundo da página cinza*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{ /*todo o conteúdo está numa div "container" com:*/
+            
+    background-position:center; /*fundo centralizado*/
+    background-color: white;   /* cor de fundo branca*/
+    background-image: url('imagens/fundo-f1.jpg'); /* imagem de fundo: f1*/
+    background-repeat: no-repeat; /* fundo sem repetição*/
+    position:center; /*posição centralizada*/
+    margin: 10%; /*todas as margens externas com 10%*/
+    padding: 1%; /*define as margens internas da div*/
+    background-attachment: fixed; /* a imagem de fundo fica fixa */
+    
+}
+
+.main{            /*div main (principal) com:*/
+    width: 100%;  /*largura de 100%*/
+    margin: auto; /*margem externa auto*/
+}
+
+.imagem-topo{     /*classe imagem-topo, dentro da tag header*/
+    width: 100%;  /*largura de 100%*/
+    margin: auto; /*margem externa auto*/
+}
+
+h4{ /*Cada “tópico” é um h4 com*/
+    
+    border-left: 10px solid gray;   /*borda lateral direita de 10px*/
+    border-bottom: 1px solid gray;  /*borda inferior de 1 px*/
+    padding: 1%;                      /*espaçamento interno do conteúdo até a borda: 1%*/
+    background-image: url('imagens/bandeira1.jpg'); /*figura com uma bandeira como background*/
+    background-position: right;       /*figura alinhada à direita*/
+    background-repeat: no-repeat;     /*figura sem repetição*/
+}
+
+p{ /*parágrafo*/
+    text-indent: 10%; /*indentação dos parágrafos*/
+    line-height: 1.5; /*espaço entrelinhas: 1.5*/
+    text-align: justify; /*parágrafo justificado*/   
+}
+
+.list-menu{ /*classe que formata a lista que está no menu superior*/
+    list-style: none; /*nenhuma formatação*/
+}
+
+.list-links{ /*classe que formata a lista que está no tópico "Links"*/
+    list-style-type: decimal; /*estilo da lista do tipo decimal: 1, 2, 3...*/
+}
+
+.table-equipes, .table-pilotos, td{ /*classe da tabela "Equipes", tabela "Pilotos"
+                                    e tag td(table date:colunas), respectivamente*/
+    border-bottom: 1px dotted gray; /*borda inferior de cor cinza, pontilhada, espessura: 1px*/
+    width: 50%; /*largura que a tabela ocupa: 50%*/
+}
+
+
+.table-cabecalho{        /*classe que formata o cabeçalho da tabela "Pilotos"*/
+    font-weight: bolder; /*deixa o texto em negrito*/
+}
+
+a:link, a:visited{    /* --> alink: estado inicial(não visitado) -  avisited: quando o link é visitado*/
+    text-decoration: none; /*sem decoração: remove sublinhado dos links*/
+    color: black;
+} 
+
+a:hover{                         /* --> com o mouse sobre o link - */
+    color: rgb(142, 135, 39);  /*cor que o link fica com o mouse sobre ele*/
+    text-decoration: underline;  /*estilo que o link fica com o mouse sobre ele: sublinhado*/
+}
+

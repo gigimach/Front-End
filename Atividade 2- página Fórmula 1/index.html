@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css"> <!--ligando arquivo html ao arquivo css-->
+    <title>Fórmula 1</title>
+</head>
+
+<body>
+    <!-- todo o conteúdo está dentro de uma div class "container" -->
+    <div class="container">
+        <!--início do cabeçalho-->
+        <header>
+            <img class="imagem-topo" src="imagens/titulo-f1.jpg" alt="fórmula 1">
+        </header>
+        <!--fim do cabeçalho-->
+
+        <!--início da div principal (main)-->
+        <div class="main">
+            <article>
+                <h4>Temporada 2009 da F1</h4>
+                <!--cada link leva para um artigo(tag article) logo abaixo (links verticais)-->
+                <ul class="list-menu">
+                    <li><a href="#mudancas"> Mudanças no regulamento</a></li>
+                    <li><a href="#equipes">Equipes</a></li>
+                    <li><a href="#pilotos">Pilotos</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#f1">Sobre a F1</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4><a id="mudancas">Mudanças no regulamento</a></h4>
+                <p>A principal mudança do regulamento de 2009 será a redução da carga
+                    aerodinâmica dos carros, com o objetivo de facilitar as ultrapassagens.
+                    Serão proibidos os apêndices, o difusor (parte de trás do assoalho)
+                    seguirá um desenho padrão, e o aerofólio traseiro será drasticamente
+                    reduzido.</p>
+
+                <p>O aerofólio dianteiro será móvel e controlado por um motor elétrico. Com
+                    isso, os pilotos poderão alterar o ângulo de ataque de acordo com o
+                    ponto da pista em que estiverem. O spoiler foi abaixado e alargado, indo
+                    até o limite dos pneus.</p>
+
+                <p>Para a temporada 2009 será introduzido o KERS (Sistema de Recuperação de
+                    Energia Cinética), ele é composto por duas baterias, que armazenarão
+                    energia gerada nas freadas, que será reutilizada com a injeção de mais
+                    alguns cavalos no motor.</p>
+
+                <p>Devido a mudança de regulamento previsto para 2009 pela FIA, a
+                    Bridgestone irá produzir pneus slick, é o retorno dos pneus lisos e sem
+                    sulcos a categoria.</p>
+            </article>
+            <article>
+                <h4><a id="equipes">Equipes</a></h4>
+                <!--início da tabela "Equipes"-->
+                <table class="table-equipes">
+                <!--dentro de cada uma das 8 linhas, há uma única coluna com uma imagem seguida de texto-->
+                    <tr>
+                        <td><img src="imagens/reinounido.png" alt="bandeira do Reino Unido">Reino Unido - Vodafone
+                            McLaren Mercedes</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/italia.png" alt="bandeira da Itália">Itália - Scuderia Ferrari Marlboro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/alemanha.png" alt="bandeira da Alemanha">Alemanha - BMW Sauber F1 Team
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/franca.png" alt="bandeira da França">França - Renault F1 Team</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/japao.png" alt="bandeira do Japão">Japão - Panasonic Toyota Racing</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/italia.png" alt="bandeira da Itália">Itália - Scuderia Toro Rosso</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/austria.png" alt="bandeira da Áustria">Austria - Red Bull Racing
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/reinounido.png" alt="bandeira do Reino Unido">Reino Unido - AT&T Williams
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/india.png" alt="bandeira da Índia">Índia - Force India F1 Team
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/reinounido.png" alt="bandeira do Reino Unido">Reino Unido - Brawn GP F1
+                            Team
+                        </td>
+                    </tr>
+                </table>
+                <!--fim da tabela "Equipes"-->
+            </article>
+            <article>
+                <h4><a id="pilotos">Pilotos</a></h4>
+                <p>Os 3 pilotos mais bem classificados até o momento são:</p>
+                <!--início de tabela "Pilotos"-->
+                <table class="table-pilotos">
+                <!--dentro de cada uma das 4 linhas, há 3 tabelas -->
+                    <tr class="table-cabecalho">
+                        <td>Foto</td>
+                        <td>Nome</td>
+                        <td>Pontos</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/button.jpg" alt="Jenson Button"></td>
+                        <td>Jenson Button</td>
+                        <td>72</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/barrichello.jpg" alt="Rubens Barrichello"></td>
+                        <td>Rubens Barrichello</td>
+                        <td>56</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/vettel.jpg" alt="Sebastian Vettel"></td>
+                        <td>Sebastian Vettel</td>
+                        <td>53</td>
+                    </tr>
+                </table>
+                <!--fim da tabela "Pilotos"-->
+            </article>
+            <article>
+                <h4><a id="links">Links</a></h4>
+                <!--criando a classe de lista dos links -->
+                <ul class="list-links">
+                    <li><a href="http://www.formula1.com">http://www.formula1.com/</a></li>
+                    <li><a href="http://www.fia.com/">http://www.fia.com/</a></li>
+                    <li><a href="http://www.teamsassociation.org/">http://www.teamsassociation.org/</a></li>
+                </ul>
+                <!--fim class "list-links"-->
+            </article>
+        </div>
+        <!--fim da div principal-->
+
+        <!--a tag article "Sobre a F1" está dentro de uma tag footer-->
+        <footer>
+            <h4><a id="f1">Sobre a F1</a></h4>
+            <p>A Fórmula 1 é a mais popular modalidade de automobilismo do mundo no
+                início do século XXI. Ela tem o objetivo de ser a categoria mais
+                avançada do esporte a motor. É regulamentada pela Fédération
+                Internationale de l'Automobile (FIA), com sede em Paris.</p>
+            <p>Ao contrário do que muitos acreditam, o registro oficial da categoria
+                consta como Fórmula Um, com o númeral escrito por extenso, mas também se
+                aceita o uso do 1 e do I.</p>
+        </footer>
+
+    <!--fim da div class "container"-->    
+    </div>
+
+
+</body>
+
+</html>
